@@ -5864,6 +5864,13 @@
         "parameters": [
           {
             "$ref": "#/components/parameters/xc-token"
+          },
+          {
+            "schema": {
+              "type": "boolean"
+            },
+            "name": "includeAllFilters",
+            "in": "query"
           }
         ]
       },
